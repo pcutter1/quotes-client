@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/mobile_navigation"
+  app:startDestination="@+id/navigation_random">
+
+    <fragment
+      android:id="@+id/navigation_random"
+      android:label="@string/title_home"
+      android:name="edu.cnm.deepdive.quotes.controller.HomeFragment"
+      tools:layout="@layout/fragment_home"/>
+
+    <fragment
+      android:id="@+id/navigation_quotes"
+      android:label="@string/title_quotes"
+      android:name="edu.cnm.deepdive.quotes.controller.QuotesFragment"
+      tools:layout="@layout/fragment_quotes"/>
+
+    <fragment
+      android:id="@+id/navigation_content"
+      android:label="@string/title_sources"
+      android:name="edu.cnm.deepdive.quotes.controller.SourcesFragment"
+      tools:layout="@layout/fragment_sources"/>
+
+</navigation>

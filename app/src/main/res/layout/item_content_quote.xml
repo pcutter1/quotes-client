@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  style="@style/ListItemContainer.Child"
+  android:clickable="true"
+  android:focusable="true"
+  android:longClickable="true">
+
+  <LinearLayout
+    style="@style/ListItemLayout.Child">
+
+    <TextView
+      style="@style/ListItemText.Quote"
+      android:text="@string/quote_bullet"/>
+
+    <TextView
+      android:id="@+id/quote_text"
+      style="@style/ListItemText.Quote.Child"/>
+
+  </LinearLayout>
+
+</androidx.cardview.widget.CardView>

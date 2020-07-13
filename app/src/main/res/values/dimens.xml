@@ -1,0 +1,13 @@
+<resources>
+  <dimen name="activity_horizontal_margin">16dp</dimen>
+  <dimen name="activity_vertical_margin">16dp</dimen>
+  <dimen name="login_button_padding">8dp</dimen>
+  <dimen name="list_padding">2dp</dimen>
+  <dimen name="list_item_margin">2dp</dimen>
+  <dimen name="list_item_padding">8dp</dimen>
+  <dimen name="list_item_corner_radius">2dp</dimen>
+  <dimen name="list_item_overlap">-4dp</dimen>
+  <dimen name="list_item_child_indent">4dp</dimen>
+  <dimen name="edit_container_padding">8dp</dimen>
+  <dimen name="edit_item_margin">8dp</dimen>
+</resources>

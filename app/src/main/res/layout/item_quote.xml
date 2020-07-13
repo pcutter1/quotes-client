@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  style="@style/ListItemContainer"
+  android:clickable="true"
+  android:focusable="true"
+  android:longClickable="true">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+    style="@style/ListItemLayout">
+
+    <TextView
+      android:id="@+id/quote_text"
+      style="@style/ListItemText.Quote"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+      android:id="@+id/quote_source"
+      style="@style/ListItemText.Source.Child"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/quote_text"/>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
