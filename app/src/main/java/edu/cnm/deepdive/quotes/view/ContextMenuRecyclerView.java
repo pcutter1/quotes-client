@@ -8,7 +8,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
-public abstract class ContextMenuRecyclerView extends RecyclerView {
+public class ContextMenuRecyclerView extends RecyclerView {
 
   private ContextMenuInfo menuInfo;
 

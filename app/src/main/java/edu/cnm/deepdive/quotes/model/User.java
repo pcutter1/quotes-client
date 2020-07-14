@@ -5,12 +5,11 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 import java.net.URL;
 import java.util.Date;
-import java.util.UUID;
 
 public class User {
 
   @Expose
-  private UUID id;
+  private Long id;
 
   @Expose
   private Date created;
@@ -28,11 +27,11 @@ public class User {
   @Expose
   private URL href;
 
-  public UUID getId() {
+  public Long getId() {
     return id;
   }
 
-  public void setId(UUID id) {
+  public void setId(Long id) {
     this.id = id;
   }
 
@@ -83,7 +82,7 @@ public class User {
   }
 
   public enum Role {
-    USER, ADMIN
+    USER, ADMINISTRATOR
   }
 
 }
